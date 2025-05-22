@@ -1,0 +1,69 @@
+/* Custom Calendar Styling */
+.rbc-calendar {
+  font-family: inherit;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.rbc-header {
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #00A8B5; /* Your secondary color */
+}
+
+.rbc-time-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.rbc-time-slot {
+  background-color: #fff;
+}
+
+.rbc-time-view {
+  border: none;
+}
+
+.rbc-today {
+  background-color: rgba(0, 168, 181, 0.06);
+}
+
+/* Event styles */
+.doctor-event {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  height: 100%;
+}
+
+.doctor-avatar {
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.doctor-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.rbc-event {
+  padding: 2px 4px !important;
+}
+
+/* Header buttons styling */
+.rbc-btn-group button {
+  border-radius: 4px !important;
+  border-color: #00A8B5 !important;
+  color: #00A8B5;
+}
+
+.rbc-btn-group button.rbc-active {
+  background-color: #00A8B5 !important;
+  color: white !important;
+}

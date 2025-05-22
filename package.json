@@ -10,15 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.3.6",
+    "@tailwindcss/vite": "^4.1.7",
+    "daisyui": "^5.0.35",
+    "date-fns": "^4.1.0",
     "framer-motion": "^12.12.1",
     "lucide": "^0.511.0",
+    "lucide-react": "^0.511.0",
+    "motion": "^12.12.1",
     "react": "^19.1.0",
-    "react-bootstrap": "^2.10.10",
+    "react-big-calendar": "^1.18.0",
+    "react-datepicker": "^8.3.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-router": "^7.6.0",
-    "recharts": "^2.15.3"
+    "recharts": "^2.15.3",
+    "tailwindcss": "^4.1.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
