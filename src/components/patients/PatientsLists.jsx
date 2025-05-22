@@ -4,7 +4,7 @@ import { ChevronRight, Printer, SquarePen, SquarePlus } from "lucide-react";
 import LogoForm from "/Logo-from.png";
 
 
-const PatientsList = () => {
+const PatientsLists = () => {
 
     const [patient, setPatient] = useState({
     id: 1,
@@ -233,4 +233,4 @@ const PatientsList = () => {
     );
 };
 
-export default PatientsList;
+export default PatientsLists;

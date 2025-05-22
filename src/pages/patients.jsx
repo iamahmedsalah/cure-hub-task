@@ -1,6 +1,6 @@
 import React from "react";
 
-import PatientsList from "../components/patients/patientsList";
+import PatientsList from "../components/patients/PatientsLists";
 import PatientsDetails from "../components/patients/PatientsDetails";
 import PatientsAppointment from "../components/patients/PatientsAppointment";
 
