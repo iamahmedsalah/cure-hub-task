@@ -7,7 +7,8 @@ export const appointments = [
     doctor: 'John Albert',
     time: '1:00 PM - 2:00 PM',
     date: '20 Nov, 2024',
-    status: 'approved'
+    status: 'Confirmed',
+    action:'take'
   },
   {
     id: 2,
@@ -17,7 +18,9 @@ export const appointments = [
     doctor: 'Emma Davis',
     time: '2:30 PM - 3:30 PM',
     date: '21 Nov, 2024',
-    status: 'pending'
+    status: 'Pending',
+    action:'take'
+    
   },
   {
     id: 3,
@@ -27,7 +30,8 @@ export const appointments = [
     doctor: 'Sarah Wilson',
     time: '10:15 AM - 11:15 AM',
     date: '22 Nov, 2024',
-    status: 'rejected'
+    status: 'Confirmed',
+    action:'take'
   },
   {
     id: 4,
@@ -37,7 +41,8 @@ export const appointments = [
     doctor: 'David Miller',
     time: '3:45 PM - 4:45 PM',
     date: '22 Nov, 2024',
-    status: 'approved'
+    status: 'Canceled',
+    action:'take'
   },
   {
     id: 5,
@@ -47,7 +52,8 @@ export const appointments = [
     doctor: 'Maria Garcia',
     time: '11:30 AM - 12:30 PM',
     date: '23 Nov, 2024',
-    status: 'pending'
+    status: 'Pending',
+    action:'take'
   },
   {
     id: 6,
@@ -57,7 +63,8 @@ export const appointments = [
     doctor: 'Robert Johnson',
     time: '9:00 AM - 10:00 AM',
     date: '24 Nov, 2024',
-    status: 'approved'
+    status: 'Canceled',
+    action:'take'
   },
   {
     id: 7,
@@ -67,7 +74,8 @@ export const appointments = [
     doctor: 'John Albert',
     time: '2:15 PM - 3:15 PM',
     date: '24 Nov, 2024',
-    status: 'pending'
+    status: 'Pending',
+    action:'take'
   },
   {
     id: 8,
@@ -77,7 +85,8 @@ export const appointments = [
     doctor: 'Emma Davis',
     time: '4:30 PM - 5:30 PM',
     date: '25 Nov, 2024',
-    status: 'approved'
+    status: 'Confirmed',
+    action:'take'
   },
   {
     id: 9,
@@ -87,7 +96,8 @@ export const appointments = [
     doctor: 'Sarah Wilson',
     time: '10:45 AM - 11:45 AM',
     date: '26 Nov, 2024',
-    status: 'rejected'
+    status: 'Canceled',
+    action:'take'
   },
   {
     id: 10,
@@ -97,7 +107,8 @@ export const appointments = [
     doctor: 'David Miller',
     time: '1:30 PM - 2:30 PM',
     date: '27 Nov, 2024',
-    status: 'pending'
+    status: 'Pending',
+    action:'take'
   },
   {
     id: 11,
@@ -107,7 +118,8 @@ export const appointments = [
     doctor: 'Maria Garcia',
     time: '12:00 PM - 1:00 PM',
     date: '28 Nov, 2024',
-    status: 'approved'
+    status: 'Confirmed',
+    action:'take'
   },
   {
     id: 12,
@@ -117,6 +129,249 @@ export const appointments = [
     doctor: 'Robert Johnson',
     time: '9:30 AM - 10:30 AM',
     date: '29 Nov, 2024',
-    status: 'pending'
+    status: 'Pending',
+    action:'take'
   }
+  ,
+  {
+    id: 13,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Canceled',
+    action:'take'
+  },
+  {
+    id: 14,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 15,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 16,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 17,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Canceled',
+    action:'take'
+  },
+  {
+    id: 18,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 19,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 20,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 21,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 22,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 23,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 24,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 25,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 26,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 27,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 29,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+  ,
+  {
+    id: 29,
+    patientName: 'Thomas Anderson',
+    gender: 'Male',
+    department: 'Ophtha',
+    doctor: 'Maria Garcia',
+    time: '12:00 PM - 1:00 PM',
+    date: '28 Nov, 2024',
+    status: 'Confirmed',
+    action:'take'
+  },
+  {
+    id: 30,
+    patientName: 'Barbara White',
+    gender: 'Female',
+    department: 'Derma',
+    doctor: 'Robert Johnson',
+    time: '9:30 AM - 10:30 AM',
+    date: '29 Nov, 2024',
+    status: 'Pending',
+    action:'take'
+  }
+];
+
+export const doctorEvents = [
+    {
+        id: 1,
+        title: 'Dr. John (Dentist)',
+        start: new Date(2025, 4, 18, 10, 0), // Sunday
+        end: new Date(2025, 4, 18, 12, 0),
+        specialty: 'Dentist',
+        doctor: 'Dr. John'
+    },
+    {
+        id: 2,
+        title: 'Dr. John (GIT)',
+        start: new Date(2025, 4, 22, 10, 0), // Wednesday
+        end: new Date(2025, 4, 22, 12, 0),
+        specialty: 'GIT',
+        doctor: 'Dr. John'
+    },
+    {
+        id: 3,
+        title: 'Dr. John (GP)',
+        start: new Date(2025, 4, 20, 13, 0), // Monday
+        end: new Date(2025, 4, 20, 15, 0),
+        specialty: 'GP',
+        doctor: 'Dr. John'
+    },
+    {
+        id: 4,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 23, 13, 0), // Thursday
+        end: new Date(2025, 4, 23, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
 ];

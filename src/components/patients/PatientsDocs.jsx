@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { FilePlus, FileText, Download, EllipsisVertical, SquarePlus } from 'lucide-react';
+import { FilePlus, FileText, Download, EllipsisVertical,SquareX } from 'lucide-react';
 
 import { motion } from 'framer-motion';
 
@@ -62,7 +62,7 @@ const PatientsDocs = () => {
                     <FilePlus size={18} /> Add Files
                 </motion.button>
             </div>
-            <div className="flex flex-col h-[197px] overflow-y-auto mt-4 custom-scrollbar">
+            <div className="flex flex-col h-[197px] overflow-y-auto mt-4 custom-scrollbar ">
                 {pdfs.map((pdf, id) => (
                     <React.Fragment key={id}>
                         <div className="flex flex-row items-center gap-2 px-5 py-1">
@@ -105,7 +105,7 @@ const PatientsDocs = () => {
                             className="absolute top-10 right-5  cursor-pointer "
                             onClick={handleCloseModal}
                         >
-                            <SquarePlus className="text-secondary" size={20} />
+                            <SquareX className="text-secondary" size={20} />
                         </button>
                         <form onSubmit={handleUpload} className="flex flex-col items-center gap-4 mt-10 ">
                             <label className="w-full flex flex-col items-center px-4 py-6 bg-base-100 rounded-[8px] tracking-wide  border-2 border-dashed border-secondary cursor-pointer transition">

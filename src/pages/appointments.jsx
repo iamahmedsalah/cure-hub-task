@@ -5,7 +5,9 @@ import { Routes, Route, Navigate } from 'react-router'
 import Tabs from "../components//appointments/AppointmentTabs";
 import AppointmentList from "../components/appointments/AppointmentList";
 import DoctorScheduleCalendar from "../components/appointments/DoctorScheduleCalendar";
+import MonthPickerButton from '../components/appointments/MonthPickerButton';
 import { appointments } from '../data/appointments'
+
 
 import { Edit ,Calendar } from "lucide-react";
 
@@ -14,7 +16,7 @@ function AppointmentRequests() {
   return (
     <div>
       <AppointmentList
-        appointments={appointments.filter(a => a.status === 'pending')}
+        appointments={appointments.filter(a => a.status === 'Pending')}
       />
     </div>
   )
@@ -23,7 +25,8 @@ function AppointmentRequests() {
 function AppointmentsList() {
   return (
     <div>
-      <AppointmentList appointments={appointments} />
+      <AppointmentList appointments={appointments.filter(a => a.status === 'Confirmed' || a.status === 'Canceled')} 
+        />
     </div>
   )
 }
@@ -40,22 +43,30 @@ function DoctorList() {
 }
 
 function DoctorSchedule() {
+  const [selectedDate, setSelectedDate] = useState(new Date());
+  const [viewMode, setViewMode] = useState('month'); // Default to month view
+
+  const handleMonthChange = (date, mode) => {
+    setSelectedDate(date);
+    if (mode) {
+      setViewMode(mode);
+    }
+  };
+
+
   return (
     <div>
       <div className='flex flex-row gap-2  mb-4'>
+        <MonthPickerButton   
+          selectedDate={selectedDate} 
+          viewMode={viewMode}
+          onChange={handleMonthChange}/>
+
+
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="btn bg-secondary text-white text-xs font-semilight w-[136px]"
-          onClick={() => alert('Add New')}
-        >
-          Month
-          <Calendar size={18} />
-        </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="btn btn-outline border-secondary text-primary " onClick={() => alert('Sort by')}>
+          className="btn btn-outline border-secondary text-neutral-800 " onClick={() => alert('Sort by')}>
           <Edit size={18}/> Edit 
         </motion.button>
       </div>

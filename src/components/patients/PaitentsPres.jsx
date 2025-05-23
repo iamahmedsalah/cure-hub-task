@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { appointments } from '../../data/appointments';
 import { motion } from 'framer-motion';
 
-import { SquarePlus, NotepadText } from 'lucide-react';
+import { SquareX, NotepadText } from 'lucide-react';
 import LogoForm from "/Logo-from.png";
 
 const PaitentsPres = () => {
@@ -90,7 +90,7 @@ const PaitentsPres = () => {
                             className="absolute top-10 right-15 cursor-pointer"
                             onClick={() => setShowAddNew(false)}
                         >
-                            <SquarePlus className="text-secondary" size={20} />
+                            <SquareX className="text-secondary" size={20} />
                         </button>
                         <div className="flex flex-col justify-start items-center gap-2 mb-4">
                             <img src={LogoForm} className="w-30" alt="logoform" />

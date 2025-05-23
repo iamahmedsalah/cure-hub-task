@@ -10,8 +10,7 @@
     --color-accent:#FFA246;
     --primary-content:#0DE3F41A ;
     --cally-primary:#00A8B5  ;
-
-    
+    --color-primary-content:#D9D9D9 ;
 }
 
 @plugin "daisyui/theme" {
@@ -24,7 +23,6 @@
 }
 
 
-
 .custom-scrollbar {
   scrollbar-width: thin;
   margin-right: 8px;
@@ -34,3 +32,21 @@
 .custom-scrollbar::-webkit-scrollbar-button {
   display: none;
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+  border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 8px;
+  border: 2px solid #f3f4f6;
+}
+

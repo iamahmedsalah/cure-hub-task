@@ -27,11 +27,11 @@ function AppointmentTabs() {
               className={({ isActive }) =>
                 (isActive
                   ? 'active text-secondary font-semibold border-b-2 border-secondary flex items-center '
-                  : 'text-primary flex items-center border-b-2 border-primary/40') +
+                  : 'text-primary-content flex items-center border-b-2 border-primary/40') +
                 ' transition-all duration-200 px-2  pb-1'
               }
             >
-              <span className='mb-1 px-'>
+              <span className='mb-1 px- '>
                 {tab.label}
               </span>
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { ChevronRight, Printer, SquarePen, SquarePlus } from "lucide-react";
+import { ChevronRight, Printer, SquarePen, SquareX } from "lucide-react";
 import LogoForm from "/Logo-from.png";
 
 
@@ -89,7 +89,7 @@ const PatientsLists = () => {
                             className="absolute top-10 right-15  cursor-pointer "
                             onClick={() => setShowEdit(false)}
                         >
-                            <SquarePlus className="text-secondary" size={20} />
+                            <SquareX className="text-secondary" size={20} />
                         </button>
                         <div className="flex flex-col justify-start items-center gap-2 mb-4">
                             <img src={LogoForm} className="w-30" alt="logoform" />

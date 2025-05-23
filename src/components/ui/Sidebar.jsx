@@ -26,7 +26,7 @@ const Sidebar = () => {
   return (
     <div className="w-[272px] h-  bg-base-100 rounded-bl-4xl rounded-tl-4xl">
       <div className="flex justify-center items-center mt-6">
-        <a href="/">
+        <a href="/dashborad">
           <img src={Logo} alt="cure-hub-Logo" />
         </a>
       </div>
