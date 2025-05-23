@@ -20,9 +20,3 @@
 - **1-Dashboard Page**: Displays statistics and charts for Total Docotr,  New Paitents and Total Appointments and canecled.
 - **2-Appointments Page**: The following is required within the Appointment page, Appointment Request, Appointment List and Doctor Schedule.
 - **3-Patients Page**: The following is required within the patient page, Add File, Add Prescriptions and Edit Prescription.
-
-> **Note**
-> 1- I think i done 90% of figma desgin 
-> & I Add Some change to desgin and some animation too
-
-## UI
