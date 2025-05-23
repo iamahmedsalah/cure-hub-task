@@ -129,7 +129,7 @@ function AppointmentList({ appointments }) {
                         <button
                           className="flex items-center justify-center cursor-pointer w-6 h-6 ml-3"
                         >
-                          <EllipsisVertical size={24} />
+                          <EllipsisVertical className="text-primary" size={24} />
                         </button>
                       </>
                     )}

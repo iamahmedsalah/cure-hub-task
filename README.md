@@ -1,12 +1,28 @@
-# React + Vite
+# Cure Hub Figma UI Task  
+[Figma Project / UI ](https://67f0c8032a80b06b88989e4b.mockapi.io/dashboard/users)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Live Demmo Link ](https://cure-hub-task.vercel.app/dashborad)
 
-Currently, two official plugins are available:
+## Tech Stack In The Project
+- **React**: React, React Router, 
+- **Lucide React**:  for Icons
+- **React Big Calendar**:  for a big calendar and managment a appointments ( it might be to be  old libaray for react)
+- **React Datepicker**:  For Date picker conmpents
+- **Framer Motiont**:  Animation Libarary
+- **Tailwindcss**: CSS framework base on class's like bootstap
+- **Recharts"**: libaray for all kind of chart like (biechart, barchart,.....)
+- **dasiyUI**: UI framework provide as way with themes for implemnt a dark mode and other 
+- **Vercel**: To Deploy Live Demo of project
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## UI Pages Task
 
-## Expanding the ESLint configuration
+- **1-Dashboard Page**: Displays statistics and charts for Total Docotr,  New Paitents and Total Appointments and canecled.
+- **2-Appointments Page**: The following is required within the Appointment page, Appointment Request, Appointment List and Doctor Schedule.
+- **3-Patients Page**: The following is required within the patient page, Add File, Add Prescriptions and Edit Prescription.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Note**
+> 1- I think i done 90% of figma desgin 
+> 2- I Add Some change to desgin and some animation too
+
+## UI

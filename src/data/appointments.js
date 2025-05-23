@@ -374,4 +374,63 @@ export const doctorEvents = [
         specialty: 'ENT',
         doctor: 'Dr. John'
     },
+        {
+        id: 4,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 23, 13, 0), // Thursday
+        end: new Date(2025, 4, 23, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+        {
+        id: 5,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 5, 13, 0), // Thursday
+        end: new Date(2025, 4, 5, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+        {
+        id: 6,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 8, 13, 0), // Thursday
+        end: new Date(2025, 4, 8, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+
+        {
+        id: 7,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 14, 13, 0), // Thursday
+        end: new Date(2025, 4, 14, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+        {
+        id: 8,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 30, 13, 0), // Thursday
+        end: new Date(2025, 4, 30, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+        {
+        id: 9,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 28, 13, 0), // Thursday
+        end: new Date(2025, 4, 28, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+    
+           {
+        id: 10,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 17, 13, 0), // Thursday
+        end: new Date(2025, 4, 17, 15, 0),
+        specialty: 'ENT',
+        doctor: 'Dr. John'
+    },
+    
 ];
