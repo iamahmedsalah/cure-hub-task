@@ -376,7 +376,7 @@ export const doctorEvents = [
     },
         {
         id: 4,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (GP)',
         start: new Date(2025, 4, 23, 13, 0), // Thursday
         end: new Date(2025, 4, 23, 15, 0),
         specialty: 'ENT',
@@ -384,10 +384,10 @@ export const doctorEvents = [
     },
         {
         id: 5,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (Dentist)',
         start: new Date(2025, 4, 5, 13, 0), // Thursday
         end: new Date(2025, 4, 5, 15, 0),
-        specialty: 'ENT',
+        specialty: 'Dentist',
         doctor: 'Dr. John'
     },
         {
@@ -401,7 +401,7 @@ export const doctorEvents = [
 
         {
         id: 7,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (GP)',
         start: new Date(2025, 4, 14, 13, 0), // Thursday
         end: new Date(2025, 4, 14, 15, 0),
         specialty: 'ENT',
@@ -409,26 +409,34 @@ export const doctorEvents = [
     },
         {
         id: 8,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (GIT)',
         start: new Date(2025, 4, 30, 13, 0), // Thursday
         end: new Date(2025, 4, 30, 15, 0),
-        specialty: 'ENT',
+        specialty: 'GIT',
         doctor: 'Dr. John'
     },
         {
         id: 9,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (Dentist)',
         start: new Date(2025, 4, 28, 13, 0), // Thursday
         end: new Date(2025, 4, 28, 15, 0),
-        specialty: 'ENT',
+        specialty: 'Dentist',
         doctor: 'Dr. John'
     },
     
-           {
+        {
         id: 10,
-        title: 'Dr. John (ENT)',
+        title: 'Dr. John (Dentist)',
         start: new Date(2025, 4, 17, 13, 0), // Thursday
         end: new Date(2025, 4, 17, 15, 0),
+        specialty: 'Dentist',
+        doctor: 'Dr. John'
+    },
+        {
+        id: 10,
+        title: 'Dr. John (ENT)',
+        start: new Date(2025, 4, 25, 13, 0), // Thursday
+        end: new Date(2025, 4, 25, 15, 0),
         specialty: 'ENT',
         doctor: 'Dr. John'
     },
