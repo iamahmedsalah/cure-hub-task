@@ -23,6 +23,6 @@
 
 > **Note**
 > 1- I think i done 90% of figma desgin 
-> 2- I Add Some change to desgin and some animation too
+> & I Add Some change to desgin and some animation too
 
 ## UI
